@@ -1,10 +1,7 @@
 class soultion
 {
   public:
-
-vector <int> bellman_ford(int V, vector<vector<int>> adj, int S) {
-
-vector <int> bellman_ford(int V,vector<vector<int>>adj,int S)
+  vector <int> bellman_ford(int V,vector<vector<int>>adj,int S)
  {
     vector<int>distance(V,1e8);
     distance[S]=0;
